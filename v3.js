@@ -55,7 +55,7 @@ yesBtn.addEventListener("click", function() {
     }, 50);
 
     const message = `
-    My Dearest Smreeti ❤️,
+    My Darling Smreeti ❤️,
 
     Gomu gomu noooo !!!
 
@@ -65,7 +65,7 @@ yesBtn.addEventListener("click", function() {
     not letting me feel lonley...
     
     I gladly  request you please please 
-    Please always support me and stay by my side 🥺
+    please always support me and stay by my side 🥺
     Mainly , Please don’t changeee… stay forever this wayyy 💕
     
     meow meow !!!
@@ -75,11 +75,11 @@ yesBtn.addEventListener("click", function() {
     when i remind you that...
 
     If there is any problem always share it with me. I will always try my best to 
-    help you in every possible way whenever you are in need.
+    help you in every possible way whenever you are in need...
 
     Kaluti,
-    I have you made you cry and angry alot .. sorry for that it was not intentional
-    I will improve myself anyway.. I just wanna see you happpyy that's it...
+    I have you made you cry and angry alot ... sorry for that it was not intentional
+    I will improve myself anyway... I just wanna see you happpyy that's it...
     I am abit cringe, I know you don't like that i will try to avoid babe...
     I will try my best and focus on myself so that we can always be together...
     
@@ -109,5 +109,6 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
+
 
 
