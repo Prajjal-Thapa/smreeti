@@ -70,11 +70,11 @@ yesBtn.addEventListener("click", function() {
     
     meow meow !!!
     My anticipating wife, please eat healthy food, study hard, wake early
-    and makeyour parents proud. Don't worry i will keep reminding you that!!!
+    and make your parents proud. Don't worry i will keep reminding you that!!!
     i just want to see you succeed as we grow so, please don't get angry 
     when i remind you that...
 
-    Mutu ko tukri, dherai narisau hai tya...
+    Mutu ko tukri, dherai narisau hai tya...Babu, oh vai, xakku navanni hai...
 
     If there is any problem always share it with me. I will always try my best to 
     help you in every possible way whenever you are in need...
@@ -85,9 +85,9 @@ yesBtn.addEventListener("click", function() {
     I am abit cringe, I know you don't like that i will try to avoid babe...
     I will try my best and focus on myself so that we can always be together...
     
-    Tsuma, I want you to be my Valentine forever.
-    I love you so so much mero kaliii ❤️
-    You are mine and only mine...
+    Tsuma, This is our first valentine, and I want to celebrate Valentine with you every year...
+    I love you so so much mero kali kalutiii❤️
+    MY property, You are mine and only mine...
     I am hoping to marry you someday… Please Lord, I hope that happensss 💍❤️
 
     This is my first time celebrating valentine, sorry this is all i know...
@@ -111,6 +111,7 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
+
 
 
 
