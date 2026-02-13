@@ -89,7 +89,7 @@ yesBtn.addEventListener("click", function() {
     I am hoping to marry you someday… Please Lord, I hope that happensss 💍❤️
 
     This is my first time celebrating valentine, sorry this is all i know...
-    Please don't mind!!1
+    Please don't mind!!!
     So much love smreetuu...
     `;
 
@@ -109,4 +109,5 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
+
 
