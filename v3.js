@@ -57,15 +57,40 @@ yesBtn.addEventListener("click", function() {
     const message = `
     My Dearest Smreeti ❤️,
 
-    HURRAYYY! Thank you for becoming my first Valentine 💖
+    Gomu gomu noooo !!!
 
-    I want you to become my Valentine forever.
-    I love you so much mero kaliii ❤️
+    HURRAYYY! Thank you for becoming my first Valentine mero kaluu 💖
+    Thanks for choosing boring guy like me..
+    I would like to thank you for making my life very intresting and 
+    not letting me feel lonley...
+    
+    I gladly  request you please please 
+    Please always support me and stay by my side 🥺
+    Mainly , Please don’t changeee… stay forever this wayyy 💕
+    
+    meow meow !!!
+    My anticipating wife, please eat healthy food, study hard, wake early
+    and makeyour parents proud. Don't worry i will keep reminding you that!!!
+    i just want to see you succeed as we grow so, please don't get angry 
+    when i remind you that...
 
-    Please always support me and stay together with meee 🥺
-    Please don’t changeee… stay forever this wayyyy 💕
+    If there is any problem always share it with me. I will always try my best to 
+    help you in every possible way whenever you are in need.
 
-    I hope to marry you someday… I hope that happensss 💍❤️
+    Kaluti,
+    I have you made you cry and angry alot .. sorry for that it was not intentional
+    I will improve myself anyway.. I just wanna see you happpyy that's it...
+    I am abit cringe, I know you don't like that i will try to avoid babe...
+    I will try my best and focus on myself so that we can always be together...
+    
+    Tsuma, I want you to be my Valentine forever.
+    I love you so so much mero kaliii ❤️
+    You are mine and only mine...
+    I am hoping to marry you someday… Please Lord, I hope that happensss 💍❤️
+
+    This is my first time celebrating valentine, sorry this is all i know...
+    Please don't mind!!1
+    So much love smreetuu...
     `;
 
     let index = 0;
@@ -84,3 +109,4 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
+
