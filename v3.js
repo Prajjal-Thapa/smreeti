@@ -84,4 +84,3 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
-
