@@ -74,6 +74,8 @@ yesBtn.addEventListener("click", function() {
     i just want to see you succeed as we grow so, please don't get angry 
     when i remind you that...
 
+    Mutu ko tukri, dherai narisau hai tya...
+
     If there is any problem always share it with me. I will always try my best to 
     help you in every possible way whenever you are in need...
 
@@ -89,7 +91,7 @@ yesBtn.addEventListener("click", function() {
     I am hoping to marry you someday… Please Lord, I hope that happensss 💍❤️
 
     This is my first time celebrating valentine, sorry this is all i know...
-    Please don't mind!!!
+    Please don't mind hai!!!
     So much love smreetuu...
     `;
 
@@ -109,6 +111,7 @@ yesBtn.addEventListener("click", function() {
     // delay typing until letter is fully visible
     setTimeout(typeLetter, 1500);
 });
+
 
 
 
