@@ -148,13 +148,27 @@ button {
     background: #fff8dc;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
     padding: 30px;
+    padding-bottom: 60px; /* extra space at bottom */
     border-radius: 10px;
     font-family: 'Cursive', sans-serif;
     font-size: 18px;
     text-align: left;
-    overflow: hidden;
+    overflow-y: auto; /* enable vertical scrolling */
+    overflow-x: hidden; /* prevent horizontal scroll */
     transition: transform 1.5s ease;
 }
+/* Custom scroll style (optional, Valentine theme) */
+.letter-paper::-webkit-scrollbar {
+    width: 8px;
+}
+.letter-paper::-webkit-scrollbar-track {
+    background: #fff8dc;
+}
+.letter-paper::-webkit-scrollbar-thumb {
+    background: #ff4d6d;
+    border-radius: 10px;
+}
+
 .typed-text::after {
     content: '|';
     animation: blink 1s infinite;
