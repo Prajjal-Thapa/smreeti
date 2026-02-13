@@ -1,38 +1,159 @@
+/* BODY & BACKGROUND */
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd1dc, #ff9aa2);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-    font-family: Arial, sans-serif;
-    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
-.container {
+/* FLOATING HEARTS */
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    transform: rotate(45deg);
+    left: calc(100% * var(--rand-x));
+    top: 100%;
+    animation: floatHeart 6s linear infinite;
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(255,0,0,0.6);
+}
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+.heart::before { top: -10px; left: 0; }
+.heart::after { left: 10px; top: 0; }
+@keyframes floatHeart {
+    0% { transform: translateY(0) rotate(45deg); opacity:0;}
+    10% { opacity:1; }
+    100% { transform: translateY(-120vh) rotate(45deg); opacity:0;}
+}
+
+/* FLOATING SPARKLES */
+.sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
     background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: sparkle 6s linear infinite;
+    top: 100%;
+    left: calc(100% * var(--rand-x));
+    box-shadow: 0 0 5px rgba(255,255,255,0.7);
+}
+@keyframes sparkle {
+    0% { transform: translateY(0) scale(0.5); opacity:0;}
+    10% { opacity:1; }
+    100% { transform: translateY(-120vh) scale(1); opacity:0;}
+}
+
+/* ENVELOPE */
+.envelope-container {
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.envelope {
+    width: 250px;
+    height: 150px;
+    background: #ff4d6d;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.envelope:hover {
+    transform: scale(1.05) rotate(-2deg);
+}
+.envelope .flap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: #ff1a4d;
+    transform-origin: top;
+    transition: transform 1s ease;
+    border-bottom: 2px solid #fff;
+}
+.envelope .open-text {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+/* VALENTINE QUESTION */
+.valentine-container {
+    display: none;
+    background: #fff8dc;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    font-family: 'Cursive', sans-serif;
+    z-index: 2;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;  /* space between YES and NO */
+    margin-top: 20px;
 }
 
+/* BUTTONS */
 button {
-    padding: 12px 25px;
-    font-size: 18px;
-    margin: 10px;
+    cursor: pointer;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
+    padding: 12px 25px;
+    font-size: 18px;
+    transition: 0.3s;
 }
+#yesBtn { background: #ff4d6d; color: white; }
+#noBtn { background: gray; color: white; }
 
-#yesBtn {
-    background-color: #ff4d6d;
-    color: white;
-}
-
-#noBtn {
-    background-color: gray;
-    color: white;
+/* HANDWRITTEN LETTER */
+.letter-paper {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%); /* start off-screen */
+    width: 350px;
+    height: 400px;
+    background: #fff8dc;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Cursive', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    overflow: hidden;
+    transition: transform 1.5s ease;
 }
+.typed-text::after {
+    content: '|';
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%,50%,100% {opacity:1;}
+    25%,75% {opacity:0;}
+}
+
